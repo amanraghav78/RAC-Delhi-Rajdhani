@@ -1,17 +1,22 @@
 // src/pages/Newsletter.js
 import React from 'react';
 
-function NewsletterPage() {
+function Newsletter() {
   return (
-    <div className="py-20 bg-gray-100 text-center">
-      <h2 className="text-3xl font-bold text-primary mb-8">Our Newsletter</h2>
-      <p className="text-lg text-dark mb-6">Subscribe to our newsletter to stay updated.</p>
-      <form className="flex justify-center">
-        <input type="email" placeholder="Enter your email" className="p-2 w-64 border border-gray-300 rounded-l-lg" />
-        <button type="submit" className="p-2 bg-secondary text-white font-semibold rounded-r-lg hover:bg-secondary-dark">Subscribe</button>
-      </form>
+    <div className="container mx-auto p-4">
+      <h1 className="text-2xl md:text-4xl font-bold text-center my-8">Our Newsletter</h1>
+      <p className="text-center text-lg md:text-xl mb-8">
+        Stay updated with our latest news and events by subscribing to our newsletter.
+      </p>
+      <div className="bg-white p-4 rounded shadow-md space-y-4">
+        <h2 className="text-xl font-semibold mb-2">Subscribe Now</h2>
+        <form className="flex flex-col space-y-4">
+          <input type="email" placeholder="Enter your email" className="p-2 border rounded" />
+          <button type="submit" className="bg-primary text-white p-2 rounded">Subscribe</button>
+        </form>
+      </div>
     </div>
   );
 }
 
-export default NewsletterPage;
+export default Newsletter;

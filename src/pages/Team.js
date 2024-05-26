@@ -3,10 +3,22 @@ import React from 'react';
 
 function Team() {
   return (
-    <div className="py-20 bg-white text-center">
-      <h2 className="text-3xl font-bold text-primary mb-8">Our Team</h2>
-      <p className="text-lg text-dark mb-6">Meet our dedicated team members.</p>
-      {/* Add team member details here */}
+    <div className="container mx-auto p-4">
+      <h1 className="text-2xl md:text-4xl font-bold text-center my-8">Our Team</h1>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div className="bg-white p-4 rounded shadow-md space-y-2">
+          <h2 className="text-xl font-semibold mb-2">Member 1</h2>
+          <p>Role and description of Member 1.</p>
+        </div>
+        <div className="bg-white p-4 rounded shadow-md space-y-2">
+          <h2 className="text-xl font-semibold mb-2">Member 2</h2>
+          <p>Role and description of Member 2.</p>
+        </div>
+        <div className="bg-white p-4 rounded shadow-md space-y-2">
+          <h2 className="text-xl font-semibold mb-2">Member 3</h2>
+          <p>Role and description of Member 3.</p>
+        </div>
+      </div>
     </div>
   );
 }
