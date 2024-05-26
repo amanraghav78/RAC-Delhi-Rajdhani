@@ -32,6 +32,16 @@ function Navbar() {
           <Link to="/events" className="hover:text-secondary">Events</Link>
         </div>
       </div>
+      {/* Mobile menu */}
+      {isOpen && (
+        <div className="md:hidden flex flex-col space-y-2 mt-2">
+          <Link to="/" className="hover:text-secondary py-2">Home</Link>
+          <Link to="/newsletter" className="hover:text-secondary py-2">Our Newsletter</Link>
+          <Link to="/team" className="hover:text-secondary py-2">Team</Link>
+          <Link to="/about" className="hover:text-secondary py-2">About Us</Link>
+          <Link to="/events" className="hover:text-secondary py-2">Events</Link>
+        </div>
+      )}
     </nav>
   );
 }
