@@ -24,7 +24,7 @@ function Navbar() {
             </svg>
           </button>
         </div>
-        <div className={`${isOpen ? "block" : "hidden"} md:flex space-x-6`}>
+        <div className="hidden md:flex space-x-6">
           <Link to="/" className="hover:text-secondary">Home</Link>
           <Link to="/newsletter" className="hover:text-secondary">Our Newsletter</Link>
           <Link to="/team" className="hover:text-secondary">Team</Link>
@@ -33,15 +33,15 @@ function Navbar() {
         </div>
       </div>
       {/* Mobile menu */}
-      {isOpen && (
-        <div className="md:hidden flex flex-col space-y-2 mt-2">
+      <div className={`${isOpen ? "block" : "hidden"} md:hidden mt-2`}>
+        <div className="flex flex-col space-y-2">
           <Link to="/" className="hover:text-secondary py-2">Home</Link>
           <Link to="/newsletter" className="hover:text-secondary py-2">Our Newsletter</Link>
           <Link to="/team" className="hover:text-secondary py-2">Team</Link>
           <Link to="/about" className="hover:text-secondary py-2">About Us</Link>
           <Link to="/events" className="hover:text-secondary py-2">Events</Link>
         </div>
-      )}
+      </div>
     </nav>
   );
 }
