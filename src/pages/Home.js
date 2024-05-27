@@ -10,7 +10,7 @@ function Home() {
           <img
             src={image2}
             alt="Group"
-            className="w-full sm:w-4/5 md:w-3/4 lg:w-full xl:w-full rounded-md shadow-md mb-2 mx-auto"
+            className="w-full sm:w-4/5 md:w-3/4 lg:w-full xl:w-full rounded-md shadow-md mb-2 mx-auto shadow-lg"
           />
         </div>
       </div>

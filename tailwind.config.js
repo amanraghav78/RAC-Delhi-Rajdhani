@@ -4,6 +4,9 @@ module.exports = {
   media: false, // or 'media' or 'class'
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Lato', 'sans-serif'],
+      },
       colors: {
         primary: '#9c1b6d', // Darker pink shade
         secondary: '#e91e63', // Secondary color
