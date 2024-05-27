@@ -18,7 +18,7 @@ function Home() {
       <h1 className="text-2xl md:text-4xl font-bold text-center my-8 font-serif">
         Welcome to the Rotaract Club of Delhi Rajdhani
       </h1>
-      <p className="text-center text-lg md:text-xl mb-8 px-4 md:px-8 lg:px-16 leading-relaxed text-gray-600 font-serif">
+      <p className="text-center text-base md:text-xl mb-8 px-4 md:px-8 lg:px-16 leading-relaxed text-gray-600 font-serif">
         Rotaract Club of Delhi Rajdhani is the youth wing of Rotary
         International, District 3011 which aims to bring a positive and
         long-lasting change in the community as well as self. We work towards
