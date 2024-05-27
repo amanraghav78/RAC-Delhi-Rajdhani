@@ -1,9 +1,15 @@
 import React from 'react';
-import image1 from '../images/image1.PNG'; // Import your image files
+import image1 from '../images/image1.PNG';
+import image2 from '../images/Home.PNG';// Import your image files
 
 function Home() {
   return (
     <div className="container mx-auto p-4">
+      <div className="flex justify-center items-center mt-8">
+        <div className="text-center">
+          <img src={image2} alt="Group" className="w-full rounded-md shadow-md mb-2 mx-auto" />
+        </div>
+      </div>
       <h1 className="text-2xl md:text-4xl font-bold text-center my-8">Welcome to the Rotaract Club of Delhi Rajdhani</h1>
       <p className="text-center text-lg md:text-xl mb-8 px-4 md:px-8 lg:px-16 leading-relaxed">
         Rotaract Club of Delhi Rajdhani is the youth wing of Rotary International, District 3011 which aims to bring a positive and long-lasting change in the community as well as self. We work towards the betterment of society along with self-development. The club promotes exchanging ideas with leaders in the community, developing leadership and professional skills along with having fun through service.
