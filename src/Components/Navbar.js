@@ -1,4 +1,3 @@
-// src/components/Navbar.js
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "./Logo.png"; // Update with the correct path to your logo
@@ -18,7 +17,7 @@ function Navbar() {
             <div className="absolute inset-0 bg-white bg-opacity-50 rounded-md"></div>
             <img src={logo} alt="Logo" className="relative h-10 w-auto p-1" />
           </div>
-          <span className="text-lg md:text-xl font-bold font-merriweather">
+          <span className="text-lg md:text-xl font-bold font-merriweather text-sm text-shadow-lg">
             Rotaract Club of Delhi Rajdhani
           </span>
         </div>
@@ -44,19 +43,34 @@ function Navbar() {
           </button>
         </div>
         <div className="hidden md:flex space-x-6">
-          <Link to="/" className="hover:text-secondary">
+          <Link
+            to="/"
+            className="hover:text-secondary font-merriweather text-sm text-shadow-lg"
+          >
             Home
           </Link>
-          <Link to="/newsletter" className="hover:text-secondary">
+          <Link
+            to="/newsletter"
+            className="hover:text-secondary font-merriweather text-sm text-shadow-lg"
+          >
             Our Newsletter
           </Link>
-          <Link to="/team" className="hover:text-secondary">
+          <Link
+            to="/team"
+            className="hover:text-secondary font-merriweather text-sm text-shadow-lg"
+          >
             Team
           </Link>
-          <Link to="/about" className="hover:text-secondary">
+          <Link
+            to="/about"
+            className="hover:text-secondary font-merriweather text-sm text-shadow-lg"
+          >
             About Us
           </Link>
-          <Link to="/events" className="hover:text-secondary">
+          <Link
+            to="/events"
+            className="hover:text-secondary font-merriweather text-sm text-shadow-lg"
+          >
             Events
           </Link>
         </div>
@@ -64,19 +78,34 @@ function Navbar() {
       {/* Mobile menu */}
       <div className={`${isOpen ? "block" : "hidden"} md:hidden mt-2`}>
         <div className="flex flex-col space-y-2">
-          <Link to="/" className="hover:text-secondary py-2">
+          <Link
+            to="/"
+            className="hover:text-secondary py-2 font-merriweather text-sm text-shadow-lg"
+          >
             Home
           </Link>
-          <Link to="/newsletter" className="hover:text-secondary py-2">
+          <Link
+            to="/newsletter"
+            className="hover:text-secondary py-2 font-merriweather text-sm text-shadow-lg"
+          >
             Our Newsletter
           </Link>
-          <Link to="/team" className="hover:text-secondary py-2">
+          <Link
+            to="/team"
+            className="hover:text-secondary py-2 font-merriweather text-sm text-shadow-lg"
+          >
             Team
           </Link>
-          <Link to="/about" className="hover:text-secondary py-2">
+          <Link
+            to="/about"
+            className="hover:text-secondary py-2 font-merriweather text-sm text-shadow-lg"
+          >
             About Us
           </Link>
-          <Link to="/events" className="hover:text-secondary py-2">
+          <Link
+            to="/events"
+            className="hover:text-secondary py-2 font-merriweather text-sm text-shadow-lg"
+          >
             Events
           </Link>
         </div>
