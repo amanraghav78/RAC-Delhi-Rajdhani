@@ -5,7 +5,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Lato", "sans-serif"],
+        'serif': ['Georgia', 'Cambria', 'Times New Roman', 'Times', 'serif'],
+          'sans': ['"Helvetica Neue"', 'Arial', 'sans-serif'],
       },
       textShadow: {
         lg: "0 2px 4px rgba(0, 0, 0, 0.10)",
