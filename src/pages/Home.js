@@ -53,9 +53,9 @@ function Home() {
       <div className="flex flex-col justify-center items-center mt-8">
         <div className="text-center relative">
           <img
-            src={image1}
+            src='https://i.imgur.com/b3aPVOH.jpeg'
             alt="Group"
-            className="w-full rounded-md shadow-md mb-2 mx-auto relative"
+            className="w-full md:w-1/2 rounded-md shadow-md mb-2 mx-auto relative"
           />
         </div>
         <div>
