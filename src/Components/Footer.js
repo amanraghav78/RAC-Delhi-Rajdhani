@@ -6,9 +6,9 @@ function Footer() {
     <footer className="bg-gray-800 text-white py-2 font-merriweather text-sm">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
-          <div className="mb-4 md:mb-0 text-center md:text-left">
-            <h5 className="font-semibold">Rotaract Club of Delhi Rajdhani</h5>
-            <p>Email: rotaractclubofdelhirajdhani@gmail.com</p>
+          <div className="mb-4 md:mb-0 text-center md:text-left hidden lg:block">
+            <h5 className="font-semibold ">Rotaract Club of Delhi Rajdhani</h5>
+            <p >Email: rotaractclubofdelhirajdhani@gmail.com</p>
           </div>
           <div className="flex space-x-6 mb-4 md:mb-0">
             <a href="https://www.facebook.com/rotaractdelhirajdhani" target="_blank" rel="noopener noreferrer" className="hover:text-primary">
