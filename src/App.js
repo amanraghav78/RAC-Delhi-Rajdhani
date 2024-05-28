@@ -16,8 +16,9 @@ import Footer from './Components/Footer';
 function App() {
   return (
     <Router>
-      <div>
+      <div className="flex flex-col min-h-screen">
         <Navbar />
+        <div className="flex-grow">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/newsletter" element={<NewsletterPage />} />
@@ -25,6 +26,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/events" element={<Events />} />
         </Routes>
+        </div>
         <Footer/>
       </div>
     </Router>
