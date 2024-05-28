@@ -50,15 +50,16 @@ function Home() {
           </p>
         </div>
       </div>
-      <div className="flex justify-center items-center mt-8">
+      <div className="flex flex-col justify-center items-center mt-8">
         <div className="text-center relative">
-          <div className="absolute inset-0 bg-black opacity-50 rounded-md"></div>
           <img
             src={image1}
             alt="Group"
-            className="w-full md:w-3/4 lg:w-1/2 rounded-md shadow-md mb-2 mx-auto relative"
+            className="w-full rounded-md shadow-md mb-2 mx-auto relative"
           />
-          <p className="relative text-white font-serif">Installation 2023-24</p>
+        </div>
+        <div>
+          <p className="font-serif text-gray-600">Installation 2023-24</p>
         </div>
       </div>
     </div>
