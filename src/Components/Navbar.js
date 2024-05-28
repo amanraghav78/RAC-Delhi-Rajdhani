@@ -17,7 +17,7 @@ function Navbar() {
             <div className="absolute inset-0 bg-white bg-opacity-50 rounded-md"></div>
             <img src={logo} alt="Logo" className="relative h-10 w-auto p-1" />
           </div>
-          <span className="text-lg md:text-xl font-bold font-merriweather text-sm text-shadow-lg">
+          <span className="md:text-xl font-bold font-merriweather text-sm text-shadow-lg">
             Rotaract Club of Delhi Rajdhani
           </span>
         </div>

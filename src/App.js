@@ -10,6 +10,8 @@ import NewsletterPage from './pages/Newsletter';
 import Team from './pages/Team';
 import About from './pages/About';
 import Events from './pages/Events';
+import Footer from './Components/Footer';
+
 
 function App() {
   return (
@@ -23,6 +25,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/events" element={<Events />} />
         </Routes>
+        <Footer/>
       </div>
     </Router>
   );
