@@ -45,8 +45,7 @@ function Home() {
         <div className="bg-white p-4 rounded shadow-md space-y-2 font-sans text-gray-600">
           <h2 className="text-xl font-semibold mb-2">Join Us</h2>
           <p>
-            Become a member and be part of a network of young leaders making a
-            difference.
+            Become a member and be part of a network of young leaders.
           </p>
         </div>
       </div>
