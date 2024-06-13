@@ -8,15 +8,15 @@ function Team() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         <div className="bg-white p-4 rounded shadow-md space-y-2">
           <h2 className="text-xl font-semibold mb-2">Member 1</h2>
-          <p>Role and description of Member 1.</p>
+          <p>description of Member 1.</p>
         </div>
         <div className="bg-white p-4 rounded shadow-md space-y-2">
           <h2 className="text-xl font-semibold mb-2">Member 2</h2>
-          <p>Role and description of Member 2.</p>
+          <p>description of Member 2.</p>
         </div>
         <div className="bg-white p-4 rounded shadow-md space-y-2">
           <h2 className="text-xl font-semibold mb-2">Member 3</h2>
-          <p>Role and description of Member 3.</p>
+          <p>description of Member 3.</p>
         </div>
       </div>
     </div>
