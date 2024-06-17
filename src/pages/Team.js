@@ -12,7 +12,7 @@ function Team() {
         </div>
         <div className="bg-white p-4 rounded shadow-md space-y-2">
           <h2 className="text-xl font-semibold mb-2">Member 2</h2>
-          <p>description of Member 2.</p>
+          <p>description of Member 2</p>
         </div>
         <div className="bg-white p-4 rounded shadow-md space-y-2">
           <h2 className="text-xl font-semibold mb-2">Member 3</h2>
